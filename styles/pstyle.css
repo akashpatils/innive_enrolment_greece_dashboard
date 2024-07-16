@@ -1,0 +1,28 @@
+.custtextarea.p-inputtext:enabled:hover{
+    border-color: #dededf;
+
+}
+.custtextarea.p-inputtext{
+    border-radius: 6px;
+}
+.customgenerate{
+    background: linear-gradient(to right, #9B2F80, #223F81);
+
+}
+.customscroll{
+    height: 400px;
+}
+
+@media (min-width:1280px){
+    .customscroll{
+        height: 20.833vw;
+
+    }
+}
+
+@media (min-width:1920px){
+    .customscroll{
+        height: 20.833vw;
+
+    }
+}

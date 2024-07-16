@@ -1,0 +1,65 @@
+/* Filter component start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.shadow-fillter{
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.05), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+}
+
+.custDropdown .p-inputtext { padding: 0; font-size: 14px; color: #24262D;}
+.custDropdown .p-dropdown { border: 0; background-color: #f6f7f9  !important; ; border-radius: 0; }
+.custDropdown .p-dropdown:not(.p-disabled).p-focus, .custCalendar .p-inputtext:enabled:focus { box-shadow: none; }
+.custDropdown .p-dropdown .p-dropdown-label.p-placeholder{ 
+    color: #24262D;  
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    top: -2px;
+}
+.custDropdown .pi-chevron-down:before { font-family: 'kmp-web'; content: '\e909'; font-size: 12px; }
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item { padding: 6px 10px !important; font-size: 14px !important; }
+.custCalendar { min-width: 120px; }
+.custCalendar .p-inputtext { border: none; padding: 0; background: transparent; border-radius: 0; font-size: 0.729vw; }
+.custCalendar.p-float-label .p-inputwrapper-filled ~ label, .custCalendar.p-float-label .p-inputwrapper-focus ~ label  { font-size: 0; }
+.custCalendar.p-float-label > label { left: 0; margin: 0; transform: translateY(-50%); color: #24262D; font-family: 'Work Sans', sans-serif; font-size: 0.729vw;}
+.custCalendar:after { content: ""; position: absolute; right: 20px; top: 0; background: url("/assets/images/svg/edit-2.png") no-repeat; width: 13px; height: 12px; }
+.p-dropdown-panel {
+    z-index: 999999 !important;
+    /* top: 136px !important; */
+    /* min-width : 141px !important; */
+    /* bottom: -30px !important; */
+}
+
+.dark .custDropdown .p-dropdown .p-dropdown-label.p-placeholder {
+    color: white !important;
+    background-color: #24262D  !important;
+  
+}
+.dark .custDropdown .p-dropdown 
+{
+    background-color: #24262D  !important;
+    color: white !important;
+
+}
+.p-dropdown-panel .p-dropdown-items
+{
+    padding: 0.50rem 0;
+}
+.custDropdown .p-inputtext {
+ 
+    color:#24262D !important;
+    background-color:  #f6f7f9 !important;
+}
+
+.dark .custDropdown .p-inputtext {
+ 
+    background-color:#24262D !important;
+  color :  #f6f7f9 !important;
+}
+
+.filterFont {
+    font-family: 'Work Sans', sans-serif;
+}
+/* Filter component end */
+
+@media (min-width:1280px){
+    .custDropdown .p-inputtext { font-size: 14px;}
+}

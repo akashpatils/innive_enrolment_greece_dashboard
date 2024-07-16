@@ -1,0 +1,205 @@
+.programsLayout_wrap {
+    /* background-image: url('/images/ProgramsLayout_wrap.png'); */
+    background-size: cover;
+}
+.circule_none {
+    border: 1.181px solid var(--brand-neutral-200, #DBE1EA);
+    background: rgba(236, 239, 243, 0.70);
+    backdrop-filter: blur(38.75px);
+}
+
+.circule_none h4 {
+    overflow: hidden;
+    color: var(--interface-text-default, #4B586E);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+}
+.circule_none h5 {
+    color: var(--interface-text-default, #4B586E);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 100% */
+}
+
+.circule_none p {
+    color: var(--interface-text-default, #4B586E);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.circule_none i {
+    color: #31C48D;
+    font-size: 10px;
+}
+.circule_none h6 {
+    color: var(--interface-text-subtitle, #9CA1AB);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.circule_active h4, h5, p, h6 {
+    color: white;
+}
+.circule_active h4 {
+    overflow: hidden;
+    color: var(--interface-text-white, #FFF);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 28.8px */
+}
+.circule_active h5 {
+    color: var(--interface-text-inverse, #FFF);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 100% */
+}
+.circule_active p {
+    color: var(--interface-text-inverse, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.circule_active h6 {
+    color: var(--interface-text-subtitle, #9CA1AB);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.circule_active i {
+    color: #31C48D;
+    font-size: 10px;
+}
+.circule_active {
+    background: #1861DD;
+    outline: 14px solid #1861dd38;
+    position: relative;
+}
+.circule_active::after {
+    content: '';
+    border-radius: 347px;
+    opacity: 0.08;
+    background: #1570EF;
+    filter: blur(7.5px);
+    width: 150%;
+    height: 150%;
+    display: block;
+    position: absolute;
+}
+.custm_tabUI .react-tabs__tab-list {
+    display: flex;
+    align-items: center;
+    border-radius: var(--rounded-lg, 8px);
+    border: 1px solid var(--interface-stroke-soft, #E5E7EB);
+    background: var(--interface-surface-component, #FFF);
+}
+.custm_tabUI .react-tabs__tab-list .react-tabs__tab {
+    background: #F5F6F7;
+    color: var(--interface-text-subtitle, #9CA1AB);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.custm_tabUI .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected {
+    background: #1570EF;
+    color: white;
+}
+
+.custm_tabUI .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected:first-child {
+    border-radius: 8px 0 0 8px;
+}
+.custm_tabUI .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected:last-child {
+    border-radius: 0px 8px 8px 0px;
+}
+.truncate_text {
+    display: block;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+}
+.custm_Tooltip.p-tooltip {
+    background: #fff;
+    border-radius: 8px;
+    padding: 0;
+}
+.custm_Tooltip.p-tooltip .p-tooltip-text {
+    background: #fff;
+    color: #242222;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-shadow: 4px 2px 6px #0000003d;
+}
+/* /// akshay css end  */
+
+/***********************************************
+            Responsive
+***********************************************/
+@media only screen and (max-width: 1920px),(min-width: 1920px) {
+    .circule_none h4 {
+    font-size: 0.938vw;
+    }
+    .circule_none h5 {
+    font-size: 1.458vw;
+    }
+
+    .circule_none p {
+    font-size: 0.625vw;
+    }
+    .circule_none i {
+    font-size: 0.521vw;
+    }
+    .circule_none h6 {
+    font-size: 0.625vw;
+    }
+
+    .circule_active h4 {
+    font-size: 0.938vw;
+    }
+    .circule_active h5 {
+    font-size: 1.458vw;
+    }
+    .circule_active p {
+    font-size: 0.625vw  ;
+    }
+    .circule_active h6 {
+    font-size: 0.625vw;
+    }
+    .circule_active i {
+    font-size: 0.521vw;
+    }
+
+}
+    @media only screen and (max-width: 1548px) {
+    }
+    @media only screen and (max-width: 1024px) {
+        
+    }
+    
+    @media only screen and (max-width: 1280px) { }
+    
+    @media only screen and (max-width: 991px) { }
+    
+    @media only screen and (max-width: 960px) {}
+    
+    
+    @media only screen and (max-width: 767px) {}
+    
+    @media only screen and (max-width: 575px) {}

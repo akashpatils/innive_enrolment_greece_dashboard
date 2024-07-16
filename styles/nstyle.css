@@ -1,0 +1,281 @@
+.profile_popup.p-overlaypanel {
+    border-radius: 10px;
+    width: 250px;
+}
+
+.profile_popup.p-overlaypanel .p-overlaypanel-content {
+    padding: 0;
+}
+
+/* Sidebar start */
+.customsidebar.p-dialog .p-dialog-header,
+.p-dialog .p-dialog-content {
+    background: transparent !important;
+}
+.customsidebar.p-dialog .p-dialog-header ,
+.customsidebar.p-sidebar .p-sidebar-header {
+    padding: 0%;
+}
+
+.customsidebar.p-dialog .p-dialog-content ,
+.customsidebar.p-sidebar .p-sidebar-content {
+    padding: 0%
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon{
+    color: #fff !important;
+    border-radius: 70px;
+    border: 4px solid #DAEEFF;
+    background: #1B458D !important;
+    position: absolute;
+right: -14px;
+
+top: -13px;
+}
+.customsidebar.p-dialog .p-dialog-header .p-dialog-close.p-dialog-icon ,
+.customsidebar.p-sidebar .p-sidebar-header .p-sidebar-close.p-sidebar-icon {
+    position: absolute;
+    left: -75px;
+    top: 50%;
+    bottom: 50%;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-family: "austin" !important;
+    content: "\e80c" !important;
+    background-image: url(/images/close-btn.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 5.427vw;
+    color: transparent;
+    content: "";
+    width: 56px;
+    height: 56px;
+    display: block;
+}
+
+.customsidebar .p-dialog .p-dialog-header .p-dialog-close:enabled:hover,
+.customsidebar .p-sidebar .p-sidebar-header .p-sidebar-close:enabled:hover,
+.p-dialog .p-dialog-header .p-dialog-icon:enabled:hover ,
+.p-sidebar .p-sidebar-header .p-sidebar-icon:enabled:hover {
+    color: transparent;
+    border-color: transparent;
+    background: transparent;
+    background-image: url(/images/close-btn.svg);
+    position: absolute;
+    left: -75px;
+    top: 50%;
+    bottom: 50%;
+    width: 56px;
+    height: 56px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 5.427vw;
+}
+
+.customsidebar .p-dialog .p-dialog-header .p-dialog-close:focus-visible,
+.customsidebar .p-sidebar .p-sidebar-header .p-sidebar-close:focus-visible,
+.p-dialog .p-dialog-header .p-dialog-icon:focus-visible ,
+.p-sidebar .p-sidebar-header .p-sidebar-icon:focus-visible {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.customsidebar.p-dialog .p-dialog-header .p-dialog-close,
+.customsidebar.p-sidebar .p-sidebar-header .p-sidebar-close,
+.customsidebar.p-dialog .p-dialog-header .p-dialog-icon,
+.customsidebar.p-sidebar .p-sidebar-header .p-sidebar-icon {
+    border-radius: 0px;
+}
+
+/* sidebar end */
+
+/* customdropdown start */
+.customDropdown .p-inputtext {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.customDropdown .p-dropdown {
+    border-radius: 8px;
+    border: 1px solid #C6CBD2;
+}
+
+.customDropdown .p-dropdown .p-dropdown-trigger svg {
+    width: 13px;
+    height: 13px;
+}
+
+.customDropdown .p-dropdown .p-dropdown-trigger {
+    width: 1em;
+    margin-right: 10px;
+}
+
+.customDropdown .p-dropdown:not(.p-disabled).p-focus {
+    box-shadow: none;
+}
+/* customdropdown end */
+
+/* customCheckBox start */
+.customCheckBox.p-checkbox.p-highlight .p-checkbox-box {
+    border-color: #1F2A37;
+    background: #1F2A37;
+}
+.customCheckBox.p-checkbox:not(.p-disabled):has(.p-checkbox-input:hover) .p-checkbox-box{
+    border-color: #1F2A37;
+}
+.customCheckBox.p-checkbox .p-checkbox-box {
+    border-radius: 5px;
+}
+.customCheckBox.p-checkbox .p-checkbox-box {
+    width: 16px;
+    height: 16px;
+}
+.customCheckBox.p-checkbox {
+    width: 16px;
+    height: 16px;
+}
+.customCheckBox.p-checkbox .p-checkbox-box .p-checkbox-icon.p-icon {
+    width: 11px;
+    height: 11px;
+}
+/* customCheckBox end */
+
+.tabBg {
+    background: rgba(0, 0, 0, 0.00);
+}
+
+/* popup table start */
+.customTablePopup thead tr th {
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.customTablePopup tbody tr td {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* popup table end */
+
+.PopupShadow {
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.programShadow {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 92.6px 0px rgba(184, 184, 184, 0.20);
+}
+
+.imageGradiant {
+    background:  linear-gradient(360deg, #FFF 50.22%, rgba(255, 255, 255, 0.00) 98.23%);
+    width: 100%;
+    height: 80px;
+}
+
+.triggerDropdown svg {
+    display: none;
+}
+.triggerDropdown .p-dropdown .p-dropdown-trigger::after {
+    font-family: 'innivenrolmentdashboard' !important;
+    color: #374151;
+    content: "\e909";
+    display: block;
+    font-size: 12px;
+}
+
+/* blueCheckBox start  */
+.blueCheckBox.p-checkbox.p-highlight .p-checkbox-box {
+    border-color: #1F66FF;
+    background: #1F66FF;
+}
+.blueCheckBox.p-checkbox .p-checkbox-box {
+    border: 2px solid #d1d5db;
+}
+.blueCheckBox.p-checkbox:not(.p-disabled):has(.p-checkbox-input:hover) .p-checkbox-box{
+    border-color: #1F66FF;
+}
+.blueCheckBox.p-checkbox .p-checkbox-box {
+    border-radius: 4px;
+}
+.blueCheckBox.p-checkbox .p-checkbox-box {
+    width: 16px;
+    height: 16px;
+}
+.blueCheckBox.p-checkbox {
+    width: 16px;
+    height: 16px;
+}
+.blueCheckBox.p-checkbox .p-checkbox-box .p-checkbox-icon.p-icon {
+    width: 11px;
+    height: 11px;
+}
+/* blueCheckBox end  */
+
+/* filter input start */
+.filterInput.p-inputtext {
+    padding: 0px;
+    border: none;
+}
+
+.milesInput.p-inputtext {
+    padding: 0px;
+    border: none;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 400;
+}
+/* filter input end */
+
+
+@media (min-width:1800px) {
+
+    /* customdropdown start */
+    .customDropdown .p-inputtext {
+        padding: 0.421vw 0.421vw;
+        font-size: 0.733vw;
+    }
+
+    .customDropdown .p-dropdown {
+        border-radius: 0.417vw;
+    }
+
+    .customDropdown .p-dropdown .p-dropdown-trigger svg {
+        width: 0.677vw;
+        height: 0.677vw;
+    }
+
+    /* customdropdown end */
+}
+
+@media (min-width:1280px) {
+    .customDropdown .p-inputtext {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .customDropdown .p-dropdown {
+        border-radius: 4px;
+    }
+
+    .customDropdown .p-dropdown .p-dropdown-trigger svg {
+        width: 13px;
+        height: 13px;
+    }
+
+    .milesInput.p-inputtext {
+        font-size: 12px;
+    }
+}
