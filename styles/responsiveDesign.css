@@ -28,7 +28,7 @@
    padding-top: 2vh;
 }
 .Loginlogo {
-   height: 120px;
+   height: 100px;
    width: auto;
    margin-right: auto;
    padding-top: 10px;
@@ -125,7 +125,7 @@
    right: 9vh;
 }
 .landingFrame{
-  width: 60vh;
+  width: 50vh;
 }
 /* login end */
 .responsive-word{
